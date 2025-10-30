@@ -1,0 +1,21 @@
+{
+  "background": "#fff",
+  "name": "Blue-前端开发",
+  "short_name": "Blue-前端开发",
+  "start_url": "https://jose999888.github.io/my-resume/#/",
+  "display": "standalone",
+  "description": "blue",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "./pic.webp",
+      "type": "image/webp",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./pic.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
