@@ -6,7 +6,7 @@ document.addEventListener('gesturestart', (event) => {
 // 阻止双击放大
 document.addEventListener('touchstart', (event) => {
   event.preventDefault()
-})
+},{passive:false})
 let lastTouchEnd = 0
 document.addEventListener('touchend', (event) => {
   const now = (new Date()).getTime()
